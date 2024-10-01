@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-compatilble" content="iege">
+        <meta name="viewport" content="width=device-width, initial-scare=1.0">
+        <title>Bài tập 2</title>
+        <link rel="stylesheet" href="main.css">
+        <style>
+        .fist {
+            font-size: 40px;
+        }
+        table, th, td{
+            border: 1px solid #ddd;
+        }
+        th, td{
+            padding: 10px;
+        }
+        html {
+            font-size: 25px
+            ;
+        }</style>
+    </head>
+    <body>
+        <p><h2 class="fist">Câu 1: Bài tập về thẻ video</h2>
+        <strong>Yêu cầu</strong>: Tạo thư mục đặt tên là videos, sau đó để video bất kỳ vào thư mục videos đó. Tiếp theo, chèn video đó vào trang web bằng cách sử dụng thẻ video và thẻ source. Đường dẫn video là dạng relative (Đường dẫn tương đối). Đặt kích thước video có width bằng 720 và height bằng 405 (tương đương tỷ lệ 16/9).</p>
+        <video width="720" height="405" controls>
+        <source src="video/video-1.mp4" type="video/mp4">
+        </video>
+        <p><h2>Câu 2: Bài tập về thẻ table</h2>
+        <strong>Yêu cầu</strong>: Dùng thẻ table, thead, tbody, tr, th, td đã được học để vẽ bảng sau:</p>
+        <table>
+            <thead>
+            <tr>
+                <th colspan="3"><strong>Hóa đơn số 1234</strong></th>
+                <th><strong>Ngày 20/11/2022</strong></th>
+            </tr>
+        </thead>
+        <tbody>
+            <td colspan="2">
+            <p><strong>Thông tin khách hàng</strong></p>
+            <p>Họ tên: Đặng Phương Nam</p>
+            <p>Số điện thoại: 0123456789</p>
+            <p>Địa chỉ: số 123, đường Abc, thành phố Hà Nội</p>
+            </td>
+            <td colspan="2">
+                <p><strong>Thông tin vận chuyển đơn hàng</strong></p>
+                <p>Họ tên: Đặng Phương Nam</p>
+                <p>Địa chỉ: số 234, đường Xyz, thành phố Hà Nội</p>
+            </td>
+            <tr>
+                <th><p></p><strong>Tên sản phẩm</strong></p></th>
+                <th><strong>Số lượng</strong></th>
+                <th><strong>Đơn giá</strong></th>
+                <th><strong>Thành tiền</strong></th>
+            </tr>
+            <tr>
+                <td>Giày nam cao cấp</td>\
+                <td>2</td>
+                <td>800.000dd</td>
+                <td>1.600.000đ</td>
+            </tr>
+            <tr>
+                <td>Giày nữ cao cấp</td>
+                <td>1</td>
+                <td>500.000 đ</td>
+                <td>1.000.000 đ</td>
+            </tr>
+            <tr>
+                <th colspan="3"><strong>Tạm tính</strong></th>
+                <td>2.600.000 đ</td>
+            </tr>
+            <tr>
+                <th colspan="3"><strong>Thuế VAT 10%</strong></th>
+                <td>260.000 đ</td>
+            </tr>
+            <tr>
+                <th colspan="3"><strong>Tổng tiền</strong></th>
+                <td>2.860.00 đ</td>
+            </tr>
+        </tbody>
+        </table>
+        <h2>Câu 3: Bài tập về thẻ ul, ol, li</h2>
+        <p><strong>Yêu cầu 1</strong>: Tạo danh sách sau sử dụng thẻ ul, li</p>
+        <ul>
+            <li>Facebook</li>
+            <li>X</li>
+            <li>Instagram</li>
+            <li>Youtube</li>
+        </ul>
+        <p><strong>Yêu cầu 2</strong>: Tạo danh sách sau sử dụng thẻ ol, li</p>
+        <ol>
+            <li> Thời trang</li>
+            <li> Công nghêj</li>
+            <li> Đồ điện tử</li>
+            <li> Đồ gia dụng</li>
+        </ol>
+        <p><strong>Yêu cầu 3</strong>: Tạo danh sách sau sửu dụng thẻ ol, li. Có kiểu là chữ La mã viết hoa</p>
+        <ol type="I" start="1">
+            <li>Học HTML5</li>
+            <li>Học CSS3</li>
+            <li>Học Bootstrap4</li>
+            <li>Học JS</li>
+        </ol>
+        <p><strong>Yêu cầu 4</strong>: Tạo danh sách sử dụng thẻ ul, li</p>
+        <ul>
+            <li type="square">Cars</li>
+            <ul typt="circle">
+                <li>BMW</li>
+                <ul type="square">
+                    <li> BMW X5</li>
+                    <li> BMW X7</li>
+                    <li> BMW Z4</li>
+                    <li> BMW M2</li>
+                </ul>
+            </ul>
+            <ul type="circle">
+                <li>Audi</li>
+                <ul type="square">
+                    <li> Audi Q8</li>
+                    <li> Audi Q7 2020</li>
+                    <li> Audi Q3</li>
+                    <li> Audi A7</li>
+                </ul>
+            </ul>
+            <ul type="su=square">
+                <li>Mercedes</li>
+            </ul>
+            <ul type="circle">
+                <li>Jaguar</li>
+                <ul type="square">
+                    <li> Jaguar XF</li>
+                    <li> Jaguar XE</li>
+                    <li> Jaguar E Pace</li>
+                    <li> Jaguar I Pace</li>
+                </ul>
+            </ul>
+        </ul>
+        <ul type="square">
+            <li>bikes</li>
+            <ul type="disc">
+                <li> Apache</li>
+                <li> KTM</li>
+                <li> R15</li>
+                <li> Ducati</li>
+                <li> Harley-Davidson</li>
+            </ul>
+        </ul>
+        <ul type="square">
+            <li>Aeroplanes</li>
+            <ul>
+                <li> Air India</li>
+                <li> Indigo</li>
+                <li> Vistara</li>
+                <li> GoAir</li>
+                <li> SpiceJet</li>
+            </ul>
+        </ul>
+        <ul type="square">
+            <li> Trains</li>
+            <li> Ships</li>
+        </ul>
+        <p><strong>Yêu cầu 5</strong>: Tạo danh sách sau sử dụng thẻ ol, li</p>
+        <ol type="I" start="1">
+            <li>Background Skills</li>
+            <ol type="A" start="A">
+                <li> Unix Commands</li>
+                <li> Vim Test Editors</li>
+            </ol>
+            <li>HTML</li>
+            <ol type="A" start="A">
+                <li> Minimal Page</li>
+                <li> Headings</li>
+                <li> Element</li>
+                <li> Lists</li>
+                <ol type="i" start="i">
+                    <li> Unordered</li>
+                    <li> Ordered</li>
+                    <li> Definition</li>
+                    <li> Nested</li>
+                </ol>
+                
+            </ol>
+            <ol type="A" start="E">
+                <li>Links</li>
+                <ol type="i" start="i">
+                    <li> Absolute</li>
+                    <li> Relative</li>
+                </ol>
+                <li> Images</li>
+            </ol>
+        </ol>
+        <p><h2>Câu 4: Bài tập về thẻ iframe</h2></p>
+        <p><strong>Yêu cầu</strong>: Nhúng bản đồ và nhúng video youtube báta kỳ vào trang web</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/pIsOTB43pXc?si=RKup6_AKiUv1a6aH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <br>
+        <iframe witdh="560" height="315" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.858169091083!2d106.68427047573628!3d10.822164158346965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3174deb3ef536f31%3A0x8b7bb8b7c956157b!2zVHLGsOG7nW5nIMSQ4bqhaSBo4buNYyBDw7RuZyBuZ2hp4buHcCBUUC5IQ00!5e0!3m2!1svi!2s!4v1727783473788!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </body>
+</html>
